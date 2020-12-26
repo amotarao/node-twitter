@@ -1,0 +1,8 @@
+{
+  "name": "@amotarao/twitter",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amotarao/node-twitter.git",
+  "author": "Amon Sawamura <amon.sawamura@gmail.com>",
+  "license": "MIT"
+}
