@@ -1,8 +1,22 @@
 {
   "name": "@amotarao/twitter",
   "version": "0.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:amotarao/node-twitter.git",
+  "license": "MIT",
   "author": "Amon Sawamura <amon.sawamura@gmail.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amotarao/node-twitter.git"
+  },
+  "main": "dist/twitter.js",
+  "types": "dist/twitter.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
