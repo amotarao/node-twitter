@@ -9,6 +9,9 @@
   },
   "main": "dist/twitter.js",
   "types": "dist/twitter.d.ts",
+  "keywords": [
+    "twitter"
+  ],
   "files": [
     "dist"
   ],
