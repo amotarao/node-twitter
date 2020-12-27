@@ -60,7 +60,7 @@ class Twitter {
    * @param path path
    */
   private buildUrl(path: string): string {
-    if (!this.options.api_version || path.startsWith(/^https?:\/\//)) {
+    if (!this.options.api_version || path.match(/^https?:\/\//)) {
       return path;
     }
 
