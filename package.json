@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.5.7",
+    "@types/oauth": "^0.9.1",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "eslint": "^7.16.0",
@@ -30,6 +31,7 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.1",
+    "oauth": "^0.9.15",
     "query-string": "^6.13.7"
   }
 }
