@@ -73,7 +73,7 @@ class Twitter {
       case '1.1':
       default: {
         path = path.replace(/\.json$/, '');
-        return `https://api.twitter.com/1.1/${path}`;
+        return `https://api.twitter.com/1.1/${path}.json`;
       }
     }
   }
