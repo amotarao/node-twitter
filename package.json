@@ -1,0 +1,30 @@
+{
+  "name": "@amotarao/twitter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Amon Sawamura <amon.sawamura@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amotarao/node-twitter.git"
+  },
+  "main": "dist/twitter.js",
+  "types": "dist/twitter.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .js,.ts",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
