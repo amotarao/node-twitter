@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "strictNullChecks": true,
+    "resolveJsonModule": true,
     "target": "es5", 
     "outDir": "dist",
     "module": "commonjs",
