@@ -150,4 +150,4 @@ class Twitter {
   }
 }
 
-export { Twitter };
+export default Twitter;
