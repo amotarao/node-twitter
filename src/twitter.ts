@@ -128,7 +128,7 @@ class Twitter {
       });
 
       const response = await fetch(url, {
-        headers: this.buildHeaders('get', url),
+        headers: this.buildHeaders(url, 'get'),
       });
 
       if (!response.ok) {
